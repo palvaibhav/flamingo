@@ -1,10 +1,17 @@
-const LandingPage = () => (
-    <div className="flex">
-        <div className="flex flex-row">
-            <span className="font-caveat text-3xl">flamingo</span>
-        </div>
+import HeroSection from "@/components/HeroSection";
+import Navbar from "../components/Navbar";
+import FeatureSection from "@/components/FeatureSection";
+import PricingSection from "@/components/PricingSection";
+import Footer from "@/components/Footer";
 
-    </div>
+const LandingPage = () => (
+  <div className="min-h-screen flex flex-col">
+    <Navbar />
+    <HeroSection />
+    <FeatureSection />
+    <PricingSection />
+    <Footer />
+  </div>
 );
 
 export default LandingPage;
