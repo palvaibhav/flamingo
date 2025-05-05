@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 
 const HeroSection = () => (
-  <section className="py-20">
+  <section className="py-20 h-screen flex items-center justify-center">
     <div className="flamingo-container">
       <div className="flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2 lg:pr-12 mb-10 lg:mb-0">
